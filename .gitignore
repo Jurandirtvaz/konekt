@@ -1,0 +1,25 @@
+#Konekt - .gitignore
+
+#=========GERAL=========
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+#=========NODEJS=========
+**/node_modules
+npm-debug.log*
+yarn-debug.log*
+.env
+.env.local
+
+#=========REACT=========
+frontend/dist
+
+#=========MOBILE=========
+**/.gradle
+**/build
+**/captured
+local.properties
+
