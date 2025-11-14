@@ -17,7 +17,7 @@ yarn-debug.log*
 .env.local
 
 #Prisma
-/src/generated 
+backend/src/generated 
 
 #=========REACT=========
 frontend/dist
